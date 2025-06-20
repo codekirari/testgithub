@@ -14,8 +14,14 @@
         <h1>Welcome to the Test Page</h1>
     </header>
     <main>
+
         <p>This is a simple test page to demonstrate HTML structure.</p>
         <button id="testButton">Click Me!</button>
+        <p>This page includes a button that you can click to see an alert.</p>
+        <script>
+            document.getElementById('testButton').addEventListener('click', function() {
+                alert('Button was clicked!');
+            }); 
     </main>
     <footer>
         <p>&copy; 2023 Test Page</p>
